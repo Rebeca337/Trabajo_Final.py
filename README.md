@@ -18,3 +18,52 @@ Actualmente la tabla de descuentos para los que tienen la tarjeta de descuentos 
 - Viernes, Sábados y Domingos: 10%
 
 Siendo modificable según los directivos.
+
+
+### Problemática
+
+Los directivos de **Cinemar** comentaron a nuestro equipo que no cuentan con un control de los clientes, para realizar reservas de butacas y otorgarles descuentos para aquellos que son más recurrentes de forma automática.
+
+
+Todo se efectúa mediante ventanilla y a mano, lo que provoca que en algunas salas a veces se terminan vendiendo más entradas que la capacidad de la sala, y perdiendo ventas en funciones por no contar con reservas por página web en horarios específicos.
+
+
+
+### Solución
+
+Nos llega desde la administración del cine a nuestro equipo de desarrolladores que tenemos que implementar una solución que nos permita lo siguiente:
+
+**Para el cliente:**
+
+- Registrarse
+- Iniciar sesión
+- Crear una reserva
+- Modificar una reserva
+- Observar mis reservas
+- Ver el historial de mis entradas
+
+
+**Para la administración:**
+
+- Ver reservas de todos los clientes
+- Ver reservas de un cliente en particular
+- Crear una sala con la película
+- Modificar una sala
+- Eliminar una sala
+- Modificar descuentos
+
+
+**Troncales:**
+
+- Ver salas
+
+
+### Consideraciones
+
+- No se vencerán las películas, sino que será por la creación de una sala.
+- La reserva implica el pago de la entrada
+- Las reservas solo se pueden modificar siempre y cuando se hagan antes de la función.
+- Las funciones son todos los días
+- No se contempla los procesos relacionados a la tarjeta de descuento.
+
+
